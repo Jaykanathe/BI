@@ -8,7 +8,7 @@ Node.js (version 14 or higher)
 MongoDB (version 4 or higher)
 
 ### Installation
-Clone the repository: git clone https://github.com/t
+Clone the repository: git clone https://github.com/Jaykanathe/BI.git
 Install dependencies: npm install
 Start the server: npm start
 

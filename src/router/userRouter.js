@@ -15,14 +15,15 @@ const upload = multer({
 }).single("image");
 
 
-router.post("/register", upload, userRegisterController.userRegisterController,);
+router.post("/register", upload, userRegisterController.userRegisterController);
+router.get("/verify/:token",userRegisterController.verifyToken);
+
 
 router.get("/check", async (req, res) => {
-
-
     res.send("user routes is working");
 })
 
 module.exports = router;
 
 
+    
